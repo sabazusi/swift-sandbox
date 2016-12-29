@@ -181,6 +181,7 @@
 				6B5218601E143A8300E23FF0 /* Resources */,
 				8B666C92BA8D3DC6F981091D /* [CP] Embed Pods Frameworks */,
 				105B09D6C00CA780887E3CAF /* [CP] Copy Pods Resources */,
+				6B1E5DF61E15820B00FCA78E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -381,6 +382,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-authtestUITests/Pods-authtestUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		6B1E5DF61E15820B00FCA78E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 944b911258b6ca1abb81a44002399f6dc54bc24f 27921938bcfba95744a924656bcd6590fd434f5f6f4587d2d6cf6a340221f6d9";
 		};
 		8A9E29F32243EB717C0DD1FF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;

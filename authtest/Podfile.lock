@@ -1,22 +1,30 @@
 PODS:
+  - Fabric (1.6.11)
   - Keys (1.0.0)
-  - OAuthSwift (1.1.0)
   - SVProgressHUD (2.1.2)
+  - TwitterCore (2.7.0):
+    - Fabric
+  - TwitterKit (2.7.0):
+    - TwitterCore (= 2.7.0)
 
 DEPENDENCIES:
+  - Fabric
   - Keys (from `Pods/CocoaPodsKeys`)
-  - OAuthSwift
   - SVProgressHUD
+  - TwitterCore
+  - TwitterKit
 
 EXTERNAL SOURCES:
   Keys:
     :path: Pods/CocoaPodsKeys
 
 SPEC CHECKSUMS:
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
   Keys: 9c35bf00f612ee1d48556f4a4b9b4551e224e90f
-  OAuthSwift: 7ec2c62274f6bdc30b1ba3b799c39a6fdcaea0e5
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  TwitterCore: fbdbeaf6d2d20cf7c7aa4136fe5173c1c85df2e2
+  TwitterKit: 97e729ceea041d174126235bf6ff67dcf37772d4
 
-PODFILE CHECKSUM: 562a0693ea1960c483676618ca28fb68c57dd972
+PODFILE CHECKSUM: 4285a20197949858984307d730c7ab1300441898
 
 COCOAPODS: 1.1.1

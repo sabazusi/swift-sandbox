@@ -8,13 +8,13 @@
 
 import UIKit
 import SVProgressHUD
-
+import Keys
 
 class AuthModalViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         SVProgressHUD.show()
+        startAuth()
 
 
         // Do any additional setup after loading the view.
@@ -23,6 +23,9 @@ class AuthModalViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func startAuth() {
     }
     
 
@@ -35,5 +38,5 @@ class AuthModalViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
 }

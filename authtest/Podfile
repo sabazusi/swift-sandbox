@@ -7,7 +7,9 @@ target 'authtest' do
 
   # Pods for authtest
   pod 'SVProgressHUD'
-  pod 'OAuthSwift'
+  pod 'Fabric'
+  pod 'TwitterKit'
+  pod 'TwitterCore'
 
   target 'authtestTests' do
     inherit! :search_paths
