@@ -8,6 +8,7 @@
 
 import UIKit
 import SVProgressHUD
+import TwitterKit
 import Keys
 
 class AuthModalViewController: UIViewController {
@@ -26,6 +27,13 @@ class AuthModalViewController: UIViewController {
     }
     
     func startAuth() {
+        Twitter.sharedInstance().logIn {
+            (session, error) -> Void in
+            if (session != nil) {
+                print(session);
+            } else {
+            }
+        }
     }
     
 
