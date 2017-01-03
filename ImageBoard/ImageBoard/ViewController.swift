@@ -3,8 +3,11 @@ import SVProgressHUD
 
 class ViewController: UIViewController ,UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     var timer: Timer!
+    @IBOutlet var collection: UICollectionView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        collection.isHidden = true
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
@@ -37,6 +40,7 @@ class ViewController: UIViewController ,UICollectionViewDataSource, UICollection
     
     func showImages(timer: Timer) {
         SVProgressHUD.dismiss()
+        collection.isHidden = false
     }
 }
 

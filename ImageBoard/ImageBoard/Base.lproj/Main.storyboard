@@ -39,6 +39,9 @@
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" id="HVB-6z-0cf"/>
+                    <connections>
+                        <outlet property="collection" destination="JL3-zl-eWa" id="g5n-7v-wAh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
