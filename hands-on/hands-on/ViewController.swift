@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  hands-on
-//
-//  Created by 鶴房　康平 on 2017/03/13.
-//  Copyright © 2017年 sabazusi. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
