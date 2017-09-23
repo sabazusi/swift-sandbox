@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BFA19CC1F767A77003BB4BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFA19CB1F767A77003BB4BB /* AppDelegate.swift */; };
+		6BFA19CE1F767A77003BB4BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFA19CD1F767A77003BB4BB /* ViewController.swift */; };
+		6BFA19D11F767A77003BB4BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BFA19CF1F767A77003BB4BB /* Main.storyboard */; };
+		6BFA19D31F767A77003BB4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BFA19D21F767A77003BB4BB /* Assets.xcassets */; };
+		6BFA19D61F767A77003BB4BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BFA19D41F767A77003BB4BB /* LaunchScreen.storyboard */; };
+		6BFA19E11F767A78003BB4BB /* kannaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFA19E01F767A78003BB4BB /* kannaTests.swift */; };
+		6BFA19EC1F767A78003BB4BB /* kannaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFA19EB1F767A78003BB4BB /* kannaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BFA19DD1F767A78003BB4BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFA19C01F767A77003BB4BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BFA19C71F767A77003BB4BB;
+			remoteInfo = kanna;
+		};
+		6BFA19E81F767A78003BB4BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFA19C01F767A77003BB4BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BFA19C71F767A77003BB4BB;
+			remoteInfo = kanna;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BFA19C81F767A77003BB4BB /* kanna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kanna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFA19CB1F767A77003BB4BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BFA19CD1F767A77003BB4BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BFA19D01F767A77003BB4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BFA19D21F767A77003BB4BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BFA19D51F767A77003BB4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BFA19D71F767A77003BB4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BFA19DC1F767A78003BB4BB /* kannaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kannaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFA19E01F767A78003BB4BB /* kannaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kannaTests.swift; sourceTree = "<group>"; };
+		6BFA19E21F767A78003BB4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BFA19E71F767A78003BB4BB /* kannaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kannaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFA19EB1F767A78003BB4BB /* kannaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kannaUITests.swift; sourceTree = "<group>"; };
+		6BFA19ED1F767A78003BB4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BFA19C51F767A77003BB4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFA19D91F767A78003BB4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFA19E41F767A78003BB4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BFA19BF1F767A77003BB4BB = {
+			isa = PBXGroup;
+			children = (
+				6BFA19CA1F767A77003BB4BB /* kanna */,
+				6BFA19DF1F767A78003BB4BB /* kannaTests */,
+				6BFA19EA1F767A78003BB4BB /* kannaUITests */,
+				6BFA19C91F767A77003BB4BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BFA19C91F767A77003BB4BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BFA19C81F767A77003BB4BB /* kanna.app */,
+				6BFA19DC1F767A78003BB4BB /* kannaTests.xctest */,
+				6BFA19E71F767A78003BB4BB /* kannaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BFA19CA1F767A77003BB4BB /* kanna */ = {
+			isa = PBXGroup;
+			children = (
+				6BFA19CB1F767A77003BB4BB /* AppDelegate.swift */,
+				6BFA19CD1F767A77003BB4BB /* ViewController.swift */,
+				6BFA19CF1F767A77003BB4BB /* Main.storyboard */,
+				6BFA19D21F767A77003BB4BB /* Assets.xcassets */,
+				6BFA19D41F767A77003BB4BB /* LaunchScreen.storyboard */,
+				6BFA19D71F767A77003BB4BB /* Info.plist */,
+			);
+			path = kanna;
+			sourceTree = "<group>";
+		};
+		6BFA19DF1F767A78003BB4BB /* kannaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BFA19E01F767A78003BB4BB /* kannaTests.swift */,
+				6BFA19E21F767A78003BB4BB /* Info.plist */,
+			);
+			path = kannaTests;
+			sourceTree = "<group>";
+		};
+		6BFA19EA1F767A78003BB4BB /* kannaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BFA19EB1F767A78003BB4BB /* kannaUITests.swift */,
+				6BFA19ED1F767A78003BB4BB /* Info.plist */,
+			);
+			path = kannaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BFA19C71F767A77003BB4BB /* kanna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFA19F01F767A78003BB4BB /* Build configuration list for PBXNativeTarget "kanna" */;
+			buildPhases = (
+				6BFA19C41F767A77003BB4BB /* Sources */,
+				6BFA19C51F767A77003BB4BB /* Frameworks */,
+				6BFA19C61F767A77003BB4BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kanna;
+			productName = kanna;
+			productReference = 6BFA19C81F767A77003BB4BB /* kanna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BFA19DB1F767A78003BB4BB /* kannaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFA19F31F767A78003BB4BB /* Build configuration list for PBXNativeTarget "kannaTests" */;
+			buildPhases = (
+				6BFA19D81F767A78003BB4BB /* Sources */,
+				6BFA19D91F767A78003BB4BB /* Frameworks */,
+				6BFA19DA1F767A78003BB4BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BFA19DE1F767A78003BB4BB /* PBXTargetDependency */,
+			);
+			name = kannaTests;
+			productName = kannaTests;
+			productReference = 6BFA19DC1F767A78003BB4BB /* kannaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BFA19E61F767A78003BB4BB /* kannaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFA19F61F767A78003BB4BB /* Build configuration list for PBXNativeTarget "kannaUITests" */;
+			buildPhases = (
+				6BFA19E31F767A78003BB4BB /* Sources */,
+				6BFA19E41F767A78003BB4BB /* Frameworks */,
+				6BFA19E51F767A78003BB4BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BFA19E91F767A78003BB4BB /* PBXTargetDependency */,
+			);
+			name = kannaUITests;
+			productName = kannaUITests;
+			productReference = 6BFA19E71F767A78003BB4BB /* kannaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BFA19C01F767A77003BB4BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = sabazusi;
+				TargetAttributes = {
+					6BFA19C71F767A77003BB4BB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					6BFA19DB1F767A78003BB4BB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6BFA19C71F767A77003BB4BB;
+					};
+					6BFA19E61F767A78003BB4BB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6BFA19C71F767A77003BB4BB;
+					};
+				};
+			};
+			buildConfigurationList = 6BFA19C31F767A77003BB4BB /* Build configuration list for PBXProject "kanna" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BFA19BF1F767A77003BB4BB;
+			productRefGroup = 6BFA19C91F767A77003BB4BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BFA19C71F767A77003BB4BB /* kanna */,
+				6BFA19DB1F767A78003BB4BB /* kannaTests */,
+				6BFA19E61F767A78003BB4BB /* kannaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BFA19C61F767A77003BB4BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFA19D61F767A77003BB4BB /* LaunchScreen.storyboard in Resources */,
+				6BFA19D31F767A77003BB4BB /* Assets.xcassets in Resources */,
+				6BFA19D11F767A77003BB4BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFA19DA1F767A78003BB4BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFA19E51F767A78003BB4BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BFA19C41F767A77003BB4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFA19CE1F767A77003BB4BB /* ViewController.swift in Sources */,
+				6BFA19CC1F767A77003BB4BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFA19D81F767A78003BB4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFA19E11F767A78003BB4BB /* kannaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFA19E31F767A78003BB4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFA19EC1F767A78003BB4BB /* kannaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BFA19DE1F767A78003BB4BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BFA19C71F767A77003BB4BB /* kanna */;
+			targetProxy = 6BFA19DD1F767A78003BB4BB /* PBXContainerItemProxy */;
+		};
+		6BFA19E91F767A78003BB4BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BFA19C71F767A77003BB4BB /* kanna */;
+			targetProxy = 6BFA19E81F767A78003BB4BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BFA19CF1F767A77003BB4BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BFA19D01F767A77003BB4BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BFA19D41F767A77003BB4BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BFA19D51F767A77003BB4BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BFA19EE1F767A78003BB4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BFA19EF1F767A78003BB4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BFA19F11F767A78003BB4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kanna/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sabazusi.kanna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BFA19F21F767A78003BB4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kanna/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sabazusi.kanna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BFA19F41F767A78003BB4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kannaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sabazusi.kannaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kanna.app/kanna";
+			};
+			name = Debug;
+		};
+		6BFA19F51F767A78003BB4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kannaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sabazusi.kannaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kanna.app/kanna";
+			};
+			name = Release;
+		};
+		6BFA19F71F767A78003BB4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kannaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sabazusi.kannaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kanna;
+			};
+			name = Debug;
+		};
+		6BFA19F81F767A78003BB4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kannaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sabazusi.kannaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kanna;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BFA19C31F767A77003BB4BB /* Build configuration list for PBXProject "kanna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFA19EE1F767A78003BB4BB /* Debug */,
+				6BFA19EF1F767A78003BB4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BFA19F01F767A78003BB4BB /* Build configuration list for PBXNativeTarget "kanna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFA19F11F767A78003BB4BB /* Debug */,
+				6BFA19F21F767A78003BB4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BFA19F31F767A78003BB4BB /* Build configuration list for PBXNativeTarget "kannaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFA19F41F767A78003BB4BB /* Debug */,
+				6BFA19F51F767A78003BB4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BFA19F61F767A78003BB4BB /* Build configuration list for PBXNativeTarget "kannaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFA19F71F767A78003BB4BB /* Debug */,
+				6BFA19F81F767A78003BB4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BFA19C01F767A77003BB4BB /* Project object */;
+}
