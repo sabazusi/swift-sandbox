@@ -1,14 +1,14 @@
 //
-//  kannaUITests.swift
-//  kannaUITests
+//  KannaTestUITests.swift
+//  KannaTestUITests
 //
-//  Created by sabazusi on 9/23/17.
+//  Created by sabazusi on 10/1/17.
 //  Copyright © 2017 sabazusi. All rights reserved.
 //
 
 import XCTest
 
-class kannaUITests: XCTestCase {
+class KannaTestUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
