@@ -1,15 +1,15 @@
 //
-//  KannaTestTests.swift
-//  KannaTestTests
+//  ScrapingTestTests.swift
+//  ScrapingTestTests
 //
 //  Created by sabazusi on 10/1/17.
 //  Copyright © 2017 sabazusi. All rights reserved.
 //
 
 import XCTest
-@testable import KannaTest
+@testable import ScrapingTest
 
-class KannaTestTests: XCTestCase {
+class ScrapingTestTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

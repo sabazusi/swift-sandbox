@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  KannaTest
+//  ScrapingTest
 //
 //  Created by sabazusi on 10/1/17.
 //  Copyright © 2017 sabazusi. All rights reserved.
