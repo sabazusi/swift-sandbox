@@ -14,6 +14,7 @@
 		6B00FFF81F811CC40074F63F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B00FFF71F811CC40074F63F /* ViewController.swift */; };
 		6B00FFFB1F811CC40074F63F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B00FFF91F811CC40074F63F /* Main.storyboard */; };
 		6B00FFFD1F811CC40074F63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B00FFFC1F811CC40074F63F /* Assets.xcassets */; };
+		6B3009931F89A5E1003055D4 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3009901F89A5D7003055D4 /* Kanna.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,20 @@
 			remoteGlobalIDString = 6B00FFF11F811CC40074F63F;
 			remoteInfo = ScrapingTest;
 		};
+		6B30098F1F89A5D7003055D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B30096F1F89A5D7003055D4 /* Kanna.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1E7ADC331DF4F3FC006E1815;
+			remoteInfo = Kanna;
+		};
+		6B3009911F89A5D7003055D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B30096F1F89A5D7003055D4 /* Kanna.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1E7ADC3C1DF4F3FC006E1815;
+			remoteInfo = Tests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +62,64 @@
 		6B00FFFA1F811CC40074F63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B00FFFC1F811CC40074F63F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B00FFFF1F811CC40074F63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B30093D1F89A5D7003055D4 /* .Kanna.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = .Kanna.version; sourceTree = "<group>"; };
+		6B30093F1F89A5D7003055D4 /* 0AD9734E-2F92-3D89-8CCA-C2263552CF19.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "0AD9734E-2F92-3D89-8CCA-C2263552CF19.bcsymbolmap"; sourceTree = "<group>"; };
+		6B3009401F89A5D7003055D4 /* 3CAA567E-6C73-3FCF-83F6-1DE01ABE4147.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "3CAA567E-6C73-3FCF-83F6-1DE01ABE4147.bcsymbolmap"; sourceTree = "<group>"; };
+		6B3009411F89A5D7003055D4 /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kanna.framework; sourceTree = "<group>"; };
+		6B3009421F89A5D7003055D4 /* Kanna.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Kanna.framework.dSYM; sourceTree = "<group>"; };
+		6B3009441F89A5D7003055D4 /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kanna.framework; sourceTree = "<group>"; };
+		6B3009451F89A5D7003055D4 /* Kanna.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Kanna.framework.dSYM; sourceTree = "<group>"; };
+		6B3009471F89A5D7003055D4 /* FC486553-A8B6-3E74-8795-039C21F762AB.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FC486553-A8B6-3E74-8795-039C21F762AB.bcsymbolmap"; sourceTree = "<group>"; };
+		6B3009481F89A5D7003055D4 /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kanna.framework; sourceTree = "<group>"; };
+		6B3009491F89A5D7003055D4 /* Kanna.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Kanna.framework.dSYM; sourceTree = "<group>"; };
+		6B30094B1F89A5D7003055D4 /* 22E5F4F3-5168-3152-86E0-E5D8FF45C4BB.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "22E5F4F3-5168-3152-86E0-E5D8FF45C4BB.bcsymbolmap"; sourceTree = "<group>"; };
+		6B30094C1F89A5D7003055D4 /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kanna.framework; sourceTree = "<group>"; };
+		6B30094D1F89A5D7003055D4 /* Kanna.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Kanna.framework.dSYM; sourceTree = "<group>"; };
+		6B3009511F89A5D7003055D4 /* ISSUE_TEMPLATE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ISSUE_TEMPLATE.md; sourceTree = "<group>"; };
+		6B3009521F89A5D7003055D4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6B3009531F89A5D7003055D4 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		6B3009541F89A5D7003055D4 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		6B3009571F89A5D7003055D4 /* .Kanna.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = .Kanna.version; sourceTree = "<group>"; };
+		6B3009591F89A5D7003055D4 /* 0AD9734E-2F92-3D89-8CCA-C2263552CF19.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "0AD9734E-2F92-3D89-8CCA-C2263552CF19.bcsymbolmap"; sourceTree = "<group>"; };
+		6B30095A1F89A5D7003055D4 /* 3CAA567E-6C73-3FCF-83F6-1DE01ABE4147.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "3CAA567E-6C73-3FCF-83F6-1DE01ABE4147.bcsymbolmap"; sourceTree = "<group>"; };
+		6B30095B1F89A5D7003055D4 /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kanna.framework; sourceTree = "<group>"; };
+		6B30095C1F89A5D7003055D4 /* Kanna.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Kanna.framework.dSYM; sourceTree = "<group>"; };
+		6B30095E1F89A5D7003055D4 /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kanna.framework; sourceTree = "<group>"; };
+		6B30095F1F89A5D7003055D4 /* Kanna.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Kanna.framework.dSYM; sourceTree = "<group>"; };
+		6B3009611F89A5D7003055D4 /* FC486553-A8B6-3E74-8795-039C21F762AB.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FC486553-A8B6-3E74-8795-039C21F762AB.bcsymbolmap"; sourceTree = "<group>"; };
+		6B3009621F89A5D7003055D4 /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kanna.framework; sourceTree = "<group>"; };
+		6B3009631F89A5D7003055D4 /* Kanna.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Kanna.framework.dSYM; sourceTree = "<group>"; };
+		6B3009651F89A5D7003055D4 /* 22E5F4F3-5168-3152-86E0-E5D8FF45C4BB.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "22E5F4F3-5168-3152-86E0-E5D8FF45C4BB.bcsymbolmap"; sourceTree = "<group>"; };
+		6B3009661F89A5D7003055D4 /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kanna.framework; sourceTree = "<group>"; };
+		6B3009671F89A5D7003055D4 /* Kanna.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Kanna.framework.dSYM; sourceTree = "<group>"; };
+		6B3009691F89A5D7003055D4 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		6B30096A1F89A5D7003055D4 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		6B30096B1F89A5D7003055D4 /* Kanna.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Kanna.xcconfig; sourceTree = "<group>"; };
+		6B30096C1F89A5D7003055D4 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		6B30096D1F89A5D7003055D4 /* Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Tests.xcconfig; sourceTree = "<group>"; };
+		6B30096E1F89A5D7003055D4 /* Kanna.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Kanna.podspec; sourceTree = "<group>"; };
+		6B30096F1F89A5D7003055D4 /* Kanna.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Kanna.xcodeproj; sourceTree = "<group>"; };
+		6B3009721F89A5D7003055D4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6B3009741F89A5D7003055D4 /* libxml2-kanna.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libxml2-kanna.h"; sourceTree = "<group>"; };
+		6B3009751F89A5D7003055D4 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		6B3009761F89A5D7003055D4 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		6B3009771F89A5D7003055D4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6B30097A1F89A5D7003055D4 /* CSS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSS.swift; sourceTree = "<group>"; };
+		6B30097B1F89A5D7003055D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B30097C1F89A5D7003055D4 /* Kanna.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kanna.h; sourceTree = "<group>"; };
+		6B30097D1F89A5D7003055D4 /* Kanna.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanna.swift; sourceTree = "<group>"; };
+		6B30097E1F89A5D7003055D4 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libxmlHTMLDocument.swift; sourceTree = "<group>"; };
+		6B30097F1F89A5D7003055D4 /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libxmlHTMLNode.swift; sourceTree = "<group>"; };
+		6B3009801F89A5D7003055D4 /* libxmlParserOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libxmlParserOption.swift; sourceTree = "<group>"; };
+		6B3009841F89A5D7003055D4 /* libraries.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = libraries.xml; sourceTree = "<group>"; };
+		6B3009851F89A5D7003055D4 /* sample.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = sample.html; sourceTree = "<group>"; };
+		6B3009861F89A5D7003055D4 /* test_HTML4.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test_HTML4.html; sourceTree = "<group>"; };
+		6B3009871F89A5D7003055D4 /* test_XML_ExcelWorkbook.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = test_XML_ExcelWorkbook.xml; sourceTree = "<group>"; };
+		6B3009881F89A5D7003055D4 /* versions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = versions.xml; sourceTree = "<group>"; };
+		6B3009891F89A5D7003055D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B30098A1F89A5D7003055D4 /* KannaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KannaTests.swift; sourceTree = "<group>"; };
+		6B30098B1F89A5D7003055D4 /* KannaTutorialsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KannaTutorialsTest.swift; sourceTree = "<group>"; };
+		6B30098C1F89A5D7003055D4 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B3009931F89A5E1003055D4 /* Kanna.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +173,7 @@
 				6B0000091F811CC40074F63F /* ScrapingTestTests */,
 				6B0000141F811CC40074F63F /* ScrapingTestUITests */,
 				6B00FFF31F811CC40074F63F /* Products */,
+				6B30093A1F89A5D7003055D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +198,256 @@
 				6B0000011F811CC40074F63F /* Info.plist */,
 			);
 			path = ScrapingTest;
+			sourceTree = "<group>";
+		};
+		6B30093A1F89A5D7003055D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B30093B1F89A5D7003055D4 /* Carthage */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B30093B1F89A5D7003055D4 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				6B30093C1F89A5D7003055D4 /* Build */,
+				6B30094E1F89A5D7003055D4 /* Checkouts */,
+			);
+			path = Carthage;
+			sourceTree = "<group>";
+		};
+		6B30093C1F89A5D7003055D4 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				6B30093D1F89A5D7003055D4 /* .Kanna.version */,
+				6B30093E1F89A5D7003055D4 /* iOS */,
+				6B3009431F89A5D7003055D4 /* Mac */,
+				6B3009461F89A5D7003055D4 /* tvOS */,
+				6B30094A1F89A5D7003055D4 /* watchOS */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		6B30093E1F89A5D7003055D4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B30093F1F89A5D7003055D4 /* 0AD9734E-2F92-3D89-8CCA-C2263552CF19.bcsymbolmap */,
+				6B3009401F89A5D7003055D4 /* 3CAA567E-6C73-3FCF-83F6-1DE01ABE4147.bcsymbolmap */,
+				6B3009411F89A5D7003055D4 /* Kanna.framework */,
+				6B3009421F89A5D7003055D4 /* Kanna.framework.dSYM */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		6B3009431F89A5D7003055D4 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009441F89A5D7003055D4 /* Kanna.framework */,
+				6B3009451F89A5D7003055D4 /* Kanna.framework.dSYM */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		6B3009461F89A5D7003055D4 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009471F89A5D7003055D4 /* FC486553-A8B6-3E74-8795-039C21F762AB.bcsymbolmap */,
+				6B3009481F89A5D7003055D4 /* Kanna.framework */,
+				6B3009491F89A5D7003055D4 /* Kanna.framework.dSYM */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		6B30094A1F89A5D7003055D4 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B30094B1F89A5D7003055D4 /* 22E5F4F3-5168-3152-86E0-E5D8FF45C4BB.bcsymbolmap */,
+				6B30094C1F89A5D7003055D4 /* Kanna.framework */,
+				6B30094D1F89A5D7003055D4 /* Kanna.framework.dSYM */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+		6B30094E1F89A5D7003055D4 /* Checkouts */ = {
+			isa = PBXGroup;
+			children = (
+				6B30094F1F89A5D7003055D4 /* Kanna */,
+			);
+			path = Checkouts;
+			sourceTree = "<group>";
+		};
+		6B30094F1F89A5D7003055D4 /* Kanna */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009501F89A5D7003055D4 /* .github */,
+				6B3009521F89A5D7003055D4 /* .gitignore */,
+				6B3009531F89A5D7003055D4 /* .swift-version */,
+				6B3009541F89A5D7003055D4 /* .travis.yml */,
+				6B3009551F89A5D7003055D4 /* Carthage */,
+				6B3009681F89A5D7003055D4 /* Configurations */,
+				6B30096E1F89A5D7003055D4 /* Kanna.podspec */,
+				6B30096F1F89A5D7003055D4 /* Kanna.xcodeproj */,
+				6B3009721F89A5D7003055D4 /* LICENSE */,
+				6B3009731F89A5D7003055D4 /* Modules */,
+				6B3009761F89A5D7003055D4 /* Package.swift */,
+				6B3009771F89A5D7003055D4 /* README.md */,
+				6B3009781F89A5D7003055D4 /* Sources */,
+				6B3009811F89A5D7003055D4 /* Tests */,
+			);
+			path = Kanna;
+			sourceTree = "<group>";
+		};
+		6B3009501F89A5D7003055D4 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009511F89A5D7003055D4 /* ISSUE_TEMPLATE.md */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		6B3009551F89A5D7003055D4 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009561F89A5D7003055D4 /* Build */,
+			);
+			path = Carthage;
+			sourceTree = "<group>";
+		};
+		6B3009561F89A5D7003055D4 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009571F89A5D7003055D4 /* .Kanna.version */,
+				6B3009581F89A5D7003055D4 /* iOS */,
+				6B30095D1F89A5D7003055D4 /* Mac */,
+				6B3009601F89A5D7003055D4 /* tvOS */,
+				6B3009641F89A5D7003055D4 /* watchOS */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		6B3009581F89A5D7003055D4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009591F89A5D7003055D4 /* 0AD9734E-2F92-3D89-8CCA-C2263552CF19.bcsymbolmap */,
+				6B30095A1F89A5D7003055D4 /* 3CAA567E-6C73-3FCF-83F6-1DE01ABE4147.bcsymbolmap */,
+				6B30095B1F89A5D7003055D4 /* Kanna.framework */,
+				6B30095C1F89A5D7003055D4 /* Kanna.framework.dSYM */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		6B30095D1F89A5D7003055D4 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				6B30095E1F89A5D7003055D4 /* Kanna.framework */,
+				6B30095F1F89A5D7003055D4 /* Kanna.framework.dSYM */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		6B3009601F89A5D7003055D4 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009611F89A5D7003055D4 /* FC486553-A8B6-3E74-8795-039C21F762AB.bcsymbolmap */,
+				6B3009621F89A5D7003055D4 /* Kanna.framework */,
+				6B3009631F89A5D7003055D4 /* Kanna.framework.dSYM */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		6B3009641F89A5D7003055D4 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009651F89A5D7003055D4 /* 22E5F4F3-5168-3152-86E0-E5D8FF45C4BB.bcsymbolmap */,
+				6B3009661F89A5D7003055D4 /* Kanna.framework */,
+				6B3009671F89A5D7003055D4 /* Kanna.framework.dSYM */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+		6B3009681F89A5D7003055D4 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009691F89A5D7003055D4 /* Base.xcconfig */,
+				6B30096A1F89A5D7003055D4 /* Debug.xcconfig */,
+				6B30096B1F89A5D7003055D4 /* Kanna.xcconfig */,
+				6B30096C1F89A5D7003055D4 /* Release.xcconfig */,
+				6B30096D1F89A5D7003055D4 /* Tests.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		6B3009701F89A5D7003055D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009901F89A5D7003055D4 /* Kanna.framework */,
+				6B3009921F89A5D7003055D4 /* Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B3009731F89A5D7003055D4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009741F89A5D7003055D4 /* libxml2-kanna.h */,
+				6B3009751F89A5D7003055D4 /* module.modulemap */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6B3009781F89A5D7003055D4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009791F89A5D7003055D4 /* Kanna */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6B3009791F89A5D7003055D4 /* Kanna */ = {
+			isa = PBXGroup;
+			children = (
+				6B30097A1F89A5D7003055D4 /* CSS.swift */,
+				6B30097B1F89A5D7003055D4 /* Info.plist */,
+				6B30097C1F89A5D7003055D4 /* Kanna.h */,
+				6B30097D1F89A5D7003055D4 /* Kanna.swift */,
+				6B30097E1F89A5D7003055D4 /* libxmlHTMLDocument.swift */,
+				6B30097F1F89A5D7003055D4 /* libxmlHTMLNode.swift */,
+				6B3009801F89A5D7003055D4 /* libxmlParserOption.swift */,
+			);
+			path = Kanna;
+			sourceTree = "<group>";
+		};
+		6B3009811F89A5D7003055D4 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009821F89A5D7003055D4 /* KannaTests */,
+				6B30098C1F89A5D7003055D4 /* LinuxMain.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6B3009821F89A5D7003055D4 /* KannaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009831F89A5D7003055D4 /* Data */,
+				6B3009891F89A5D7003055D4 /* Info.plist */,
+				6B30098A1F89A5D7003055D4 /* KannaTests.swift */,
+				6B30098B1F89A5D7003055D4 /* KannaTutorialsTest.swift */,
+			);
+			path = KannaTests;
+			sourceTree = "<group>";
+		};
+		6B3009831F89A5D7003055D4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6B3009841F89A5D7003055D4 /* libraries.xml */,
+				6B3009851F89A5D7003055D4 /* sample.html */,
+				6B3009861F89A5D7003055D4 /* test_HTML4.html */,
+				6B3009871F89A5D7003055D4 /* test_XML_ExcelWorkbook.xml */,
+				6B3009881F89A5D7003055D4 /* versions.xml */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +543,12 @@
 			mainGroup = 6B00FFE91F811CC40074F63F;
 			productRefGroup = 6B00FFF31F811CC40074F63F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6B3009701F89A5D7003055D4 /* Products */;
+					ProjectRef = 6B30096F1F89A5D7003055D4 /* Kanna.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6B00FFF11F811CC40074F63F /* ScrapingTest */,
@@ -226,6 +557,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6B3009901F89A5D7003055D4 /* Kanna.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kanna.framework;
+			remoteRef = 6B30098F1F89A5D7003055D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6B3009921F89A5D7003055D4 /* Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Tests.xctest;
+			remoteRef = 6B3009911F89A5D7003055D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6B0000041F811CC40074F63F /* Resources */ = {
