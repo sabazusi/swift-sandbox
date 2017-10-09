@@ -21,6 +21,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBOutlet var button: UIView!
+    @IBAction func onButtonTapped(_ sender: UIButton) {
+        print("haihai");
+    }
 }
 
