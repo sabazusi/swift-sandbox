@@ -14,6 +14,7 @@
 		6B00FFF81F811CC40074F63F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B00FFF71F811CC40074F63F /* ViewController.swift */; };
 		6B00FFFB1F811CC40074F63F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B00FFF91F811CC40074F63F /* Main.storyboard */; };
 		6B00FFFD1F811CC40074F63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B00FFFC1F811CC40074F63F /* Assets.xcassets */; };
+		6B08403F1F91C15200D07DFA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B08403C1F91C15200D07DFA /* Alamofire.framework */; };
 		6B3009931F89A5E1003055D4 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3009901F89A5D7003055D4 /* Kanna.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		6B00FFFA1F811CC40074F63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B00FFFC1F811CC40074F63F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B00FFFF1F811CC40074F63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B08403C1F91C15200D07DFA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		6B30093D1F89A5D7003055D4 /* .Kanna.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = .Kanna.version; sourceTree = "<group>"; };
 		6B30093F1F89A5D7003055D4 /* 0AD9734E-2F92-3D89-8CCA-C2263552CF19.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "0AD9734E-2F92-3D89-8CCA-C2263552CF19.bcsymbolmap"; sourceTree = "<group>"; };
 		6B3009401F89A5D7003055D4 /* 3CAA567E-6C73-3FCF-83F6-1DE01ABE4147.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "3CAA567E-6C73-3FCF-83F6-1DE01ABE4147.bcsymbolmap"; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B08403F1F91C15200D07DFA /* Alamofire.framework in Frameworks */,
 				6B3009931F89A5E1003055D4 /* Kanna.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,6 +206,7 @@
 		6B30093A1F89A5D7003055D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6B08403C1F91C15200D07DFA /* Alamofire.framework */,
 				6B30093B1F89A5D7003055D4 /* Carthage */,
 			);
 			name = Frameworks;
@@ -775,6 +779,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = ScrapingTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -790,6 +798,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = ScrapingTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
