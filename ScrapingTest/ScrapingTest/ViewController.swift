@@ -12,6 +12,8 @@ import Alamofire
 import Kanna
 
 class ViewController: UIViewController {
+    
+    private let TARGET_URL = "https://anond.hatelabo.jp";
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +27,9 @@ class ViewController: UIViewController {
 
     @IBOutlet var button: UIView!
     @IBAction func onButtonTapped(_ sender: UIButton) {
-        print("haihai");
+        Alamofire.request(TARGET_URL).responseString { response in
+            print("\(response)");
+        }
     }
 }
 
