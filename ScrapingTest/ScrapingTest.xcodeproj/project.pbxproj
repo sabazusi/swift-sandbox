@@ -14,8 +14,10 @@
 		6B00FFF81F811CC40074F63F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B00FFF71F811CC40074F63F /* ViewController.swift */; };
 		6B00FFFB1F811CC40074F63F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B00FFF91F811CC40074F63F /* Main.storyboard */; };
 		6B00FFFD1F811CC40074F63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B00FFFC1F811CC40074F63F /* Assets.xcassets */; };
-		6B08403F1F91C15200D07DFA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B08403C1F91C15200D07DFA /* Alamofire.framework */; };
-		6B3009931F89A5E1003055D4 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3009901F89A5D7003055D4 /* Kanna.framework */; };
+		6BAEE85E1F91CA9900870403 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3009411F89A5D7003055D4 /* Kanna.framework */; };
+		6BAEE85F1F91CA9900870403 /* Kanna.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3009411F89A5D7003055D4 /* Kanna.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6BAEE8621F91CAB400870403 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAEE8611F91CAB400870403 /* Alamofire.framework */; };
+		6BAEE8631F91CAB400870403 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAEE8611F91CAB400870403 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,21 @@
 			remoteInfo = Tests;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6BAEE8601F91CA9900870403 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6BAEE85F1F91CA9900870403 /* Kanna.framework in Embed Frameworks */,
+				6BAEE8631F91CAB400870403 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6B0000011F811CC40074F63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,6 +139,7 @@
 		6B30098A1F89A5D7003055D4 /* KannaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KannaTests.swift; sourceTree = "<group>"; };
 		6B30098B1F89A5D7003055D4 /* KannaTutorialsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KannaTutorialsTest.swift; sourceTree = "<group>"; };
 		6B30098C1F89A5D7003055D4 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
+		6BAEE8611F91CAB400870403 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +161,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B08403F1F91C15200D07DFA /* Alamofire.framework in Frameworks */,
-				6B3009931F89A5E1003055D4 /* Kanna.framework in Frameworks */,
+				6BAEE85E1F91CA9900870403 /* Kanna.framework in Frameworks */,
+				6BAEE8621F91CAB400870403 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +190,7 @@
 		6B00FFE91F811CC40074F63F = {
 			isa = PBXGroup;
 			children = (
+				6BAEE8611F91CAB400870403 /* Alamofire.framework */,
 				6B00FFF41F811CC40074F63F /* ScrapingTest */,
 				6B0000091F811CC40074F63F /* ScrapingTestTests */,
 				6B0000141F811CC40074F63F /* ScrapingTestUITests */,
@@ -500,6 +519,7 @@
 				6B00FFEE1F811CC40074F63F /* Sources */,
 				6B00FFEF1F811CC40074F63F /* Frameworks */,
 				6B00FFF01F811CC40074F63F /* Resources */,
+				6BAEE8601F91CA9900870403 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -779,6 +799,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGL27T94FW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -798,6 +819,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGL27T94FW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
