@@ -25,10 +25,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func parseHTML(html: String) -> Void {
+        if let doc = Kanna.HTML(html: html, encoding: String.Encoding.utf8) {
+            print("parsed");
+        }
+    }
+    
     @IBOutlet var button: UIView!
     @IBAction func onButtonTapped(_ sender: UIButton) {
         Alamofire.request(TARGET_URL).responseString { response in
             print("\(response)");
+            if let html = response.result.value {
+                self.parseHTML(html: html)
+            }
         }
     }
 }
