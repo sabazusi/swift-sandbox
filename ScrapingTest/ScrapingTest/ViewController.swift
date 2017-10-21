@@ -27,7 +27,9 @@ class ViewController: UIViewController {
 
     func parseHTML(html: String) -> Void {
         if let doc = Kanna.HTML(html: html, encoding: String.Encoding.utf8) {
-            print("parsed");
+            for node in doc.css("div.section") {
+                print(node.text);
+            }
         }
     }
     
